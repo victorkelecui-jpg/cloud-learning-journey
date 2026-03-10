@@ -28,11 +28,11 @@ Verifying Setup: Use ls -la /home/<username>/ to confirm hidden configuration fi
 To manage user access effectively, utilize "chage" and "usermod":
 
 chage: chage is a powerful administrative utility used to change user password expiry information. Think of it as your "security clock" for managing how long a password lasts and when an account should be disable
-How to use it: A Quick ReferenceActionCommandCheck 
-Current Statussudo chage -l <username>
-Force Password Reset on Next Login sudo chage -d 0 <username>
-Rotate Password every 30 Days sudo chage -M 30 <username>
-Set 7-Day Warning sudo chage -W 7 <username>
+</br> How to use it: A Quick ReferenceActionCommandCheck 
+</br> Current Statussudo chage -l <username>
+</br> Force Password Reset on Next Login sudo chage -d 0 <username>
+</br> Rotate Password every 30 Days sudo chage -M 30 <username>
+</br> Set 7-Day Warning sudo chage -W 7 <username>
 
 Account Expiration
 Set Account Expiry: sudo usermod -e 2026-04-10 <username>
